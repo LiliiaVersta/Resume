@@ -1,0 +1,263 @@
+body {
+  background: #fff9e7;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  font-family: "Playfair Display", serif;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.wrapper {
+  background: #fceed1;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  padding-left: 100px;
+  padding-top: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+  box-sizing: border-box;
+}
+.sidebar {
+  background: #eabf85;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+.sidebar-content {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.contacts-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.contacts-type {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 8px;
+}
+.contacts-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+.contacts-item {
+  text-decoration: none;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.contacts-container {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+/* Tech */
+
+.skills-cont {
+  margin-bottom: 40px;
+  padding-left: 50px;
+}
+.skills-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.skills-list {
+}
+.skills-list-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* my info */
+
+.my-prof {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 17px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.my-name {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.pro-my {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.my-info {
+  margin-bottom: 40px;
+}
+
+/* my projects  */
+
+.my-projects {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.my-projects-item {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.my-projects-list {
+  padding-left: 16px;
+}
+.my-projects-item-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+.my-projects-item-tech {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.my-projects-container {
+  margin-bottom: 40px;
+}
+
+/* My Experience */
+.My-Experience {
+  margin-bottom: 40px;
+}
+.My-experience-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.My-experience-company {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.company-name {
+  color: #eabf85;
+}
+.My-experience-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+.My-experience-period-separator {
+  color: #000;
+}
+.My-experience-duties-list {
+  padding-left: 16px;
+}
+.My-experience-duties-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.My-experience-container {
+  margin-bottom: 12px;
+}
+
+/* My-experience-company2 */
+
+.My-experience-company2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.My-experience-company-port2 {
+  color: #e89f3f;
+}
+.My-experience-period2 {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+.My-experience-period-separator2 {
+  color: #000;
+}
+.My-experience-duties-list2 {
+  padding-left: 16px;
+}
+.My-experience-duties-item2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.My-experience-container2 {
+  margin-bottom: 12px;
+}
+
+/* education */
+
+.My-experience-title-education {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.My-experience-education {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.My-experience-education-management {
+  color: #e89f3f;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.My-experience-education-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+.My-experience-period-education {
+  color: #000;
+}
+.My-experience-Education {
+  margin-bottom: 12px;
+}
