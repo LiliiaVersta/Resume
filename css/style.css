@@ -11,6 +11,9 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
 }
+img {
+  width: 300px;
+}
 .wrapper {
   background: #fceed1;
   display: flex;
@@ -27,7 +30,9 @@ ol {
   box-sizing: border-box;
 }
 .sidebar {
+  width: 370px;
   background: #eabf85;
+  border-right: 2px solid #e9a32a;
   padding-top: 40px;
   padding-bottom: 40px;
   box-sizing: border-box;
@@ -53,15 +58,21 @@ ol {
   margin-right: 8px;
 }
 .contacts-link {
+  color: #000;
+  text-decoration: none;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  text-decoration-line: underline;
+  /* text-decoration-line: underline; */
 }
 .contacts-item {
-  text-decoration: none;
+  list-style-type: none;
   margin-top: 0px;
   margin-bottom: 4px;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #e9a32a;
 }
 .contacts-container {
   list-style: none;
@@ -81,8 +92,7 @@ ol {
   margin-top: 0;
   margin-bottom: 8px;
 }
-.skills-list {
-}
+
 .skills-list-item {
   font-size: 14px;
   font-weight: 400;
@@ -225,7 +235,9 @@ ol {
 }
 
 /* education */
-
+.My-experience-Education {
+  margin-bottom: 12px;
+}
 .My-experience-title-education {
   font-size: 22px;
   font-weight: 700;
@@ -257,7 +269,4 @@ ol {
 }
 .My-experience-period-education {
   color: #000;
-}
-.My-experience-Education {
-  margin-bottom: 12px;
 }
