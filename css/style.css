@@ -18,7 +18,7 @@ img {
   background: #fceed1;
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -38,7 +38,7 @@ img {
   box-sizing: border-box;
 }
 .sidebar-content {
-  padding-left: 40px;
+  padding-left: 60px;
   padding-top: 40px;
   padding-right: 40px;
   box-sizing: border-box;
@@ -66,7 +66,7 @@ img {
   /* text-decoration-line: underline; */
 }
 .contacts-item {
-  list-style-type: none;
+  /* list-style-type: none; */
   margin-top: 0px;
   margin-bottom: 4px;
 }
@@ -75,7 +75,7 @@ img {
   color: #e9a32a;
 }
 .contacts-container {
-  list-style: none;
+  /* list-style: none; */
   margin-bottom: 40px;
 }
 
@@ -83,7 +83,7 @@ img {
 
 .skills-cont {
   margin-bottom: 40px;
-  padding-left: 50px;
+  padding-left: 60px;
 }
 .skills-title {
   font-size: 22px;
@@ -91,12 +91,6 @@ img {
   line-height: normal;
   margin-top: 0;
   margin-bottom: 8px;
-}
-
-.skills-list-item {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
 }
 
 /* my info */
@@ -148,11 +142,11 @@ img {
   line-height: 24px;
   text-decoration-line: underline;
 }
-.my-projects-item-tech {
+/* .my-projects-item-tech {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-}
+} */
 .my-projects-container {
   margin-bottom: 40px;
 }
